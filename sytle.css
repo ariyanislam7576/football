@@ -2,8 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 p{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
+    font-size: small;
 }
 main{
     width: 1160px;
@@ -108,10 +107,10 @@ p{
  }
 
 .champian h2{
-     margin-top: 0px;
+     
  }
 .champian p{
-    margin-top: 0px;
+
 }
 
 /*------------------------------------------
@@ -119,9 +118,11 @@ p{
 ---------------------------------------------*/
 
 .best-players{
+    display: flex;
     width: 1160px;
     margin-top: 100px;
     margin-left: 50px;
+    
 }
 
 
@@ -158,8 +159,9 @@ footer{
 
     }
     .champian{
-
         width: 100%;
+        display: none;
+    }
     }
     footer{
         width: 100%;
